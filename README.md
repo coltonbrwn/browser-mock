@@ -1,4 +1,5 @@
 ---
+permalink: /
 ---
 
 # browser-mock
