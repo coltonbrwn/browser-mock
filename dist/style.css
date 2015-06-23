@@ -12,6 +12,7 @@
   width: 100%;
   position: relative;
   top: 6px;
+  margin: 0;
 }
 
 .browser-mock:before{
