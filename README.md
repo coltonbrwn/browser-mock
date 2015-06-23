@@ -5,6 +5,8 @@ layout: main
 
 # browser-mock
 
+Display your screencaps in a mock browser window for presentations and UX mockups
+
 1. Download the [css][dl-link]
 2. Include it in your project
 3. Wrap any `<img/>` tag with a `.browser-mock` class to generate the browser styling
