@@ -1,16 +1,24 @@
----
----
-
 # browser-mock
 
-Display your screencaps in a mock browser window for presentations and UX mockups using pure CSS.
+1. Download the [css][dl-link]
+2. Include it in your project
+3. Wrap any `<img/>` tag with a `.browser-mock` class to generate the browser styling
 
-Wrap your `<img/>` tag in a div with class `.browser-mock` will turn this:
+### Example:
 
+```HTML
+<img src="image1.png"/>
+```
 ![plain](./img/goog_plain.png)
 
-into:
+
+
+```HTML
+<div class="browser-mock">
+  <img src="image1.png"/>
+</div>
+```
 
 ![mock](./img/goog_mock.png)
 
-[download css](https://raw.githubusercontent.com/coltontb/browser-mock/master/dist/style.css)
+[dl-link]: https://raw.githubusercontent.com/coltontb/browser-mock/master/dist/style.css
